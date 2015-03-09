@@ -1,0 +1,1 @@
+select ScriptID,ScriptRunStatus from `TestScript` where TaskName = 'SZ_Infrastructure_Virtualization_0426' and ScriptRunStatus='FAIL' or Feature='用户管理' or Feature='组织管理'  or Feature='角色管理';

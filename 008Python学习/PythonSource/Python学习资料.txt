@@ -1,0 +1,23 @@
+【ZT】Python 学习资源 ( 整理日期2010-02-24 ) 
+Python 简明教程 (入门必看)
+
+* 在线浏览: http://woodpecker.org.cn/abyteofpython_cn/chinese/
+
+Python Tutorial 简体中文版 (March Liu翻译)
+
+* 在线浏览: http://www.woodpecker.org.cn:9081/projects/pythontutorial/py2.5/html/tut/tut.html
+* PDF:  http://www.woodpecker.org.cn:9081/projects/pythontutorial/py2.5/Py2_5_tut_cn.pdf
+* 最新3.x打包地址: http://openbookproject.googlecode.com/files/Python_v3.0c1_PyTutorial_zh081031.7z
+
+Dive Into Python -- 《深入Python》
+
+* 在线浏览: http://www.woodpecker.org.cn/diveintopython/toc/index.html
+* 打包下载: http://www.woodpecker.org.cn/diveintopython/#download
+* 最新DIP3地址: http://www.woodpecker.org.cn/diveintopython3/
+
+其他资源
+* The Django Book 2.0 中文版：http://djangobook.py3k.cn/2.0
+
+标签：Python 
+分类：学习资源
+ 

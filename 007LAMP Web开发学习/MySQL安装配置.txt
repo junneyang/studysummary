@@ -1,0 +1,19 @@
+一、MySQL服务启动异常处理方法：
+1.sc delete mysql
+2.删除MySQL安装目录
+3.删除C:\Program Files\MySQL目录
+4.卸载MySQL
+5.重启机器
+6.重新安装MySQL
+
+OK，搞定
+
+
+二、允许其他远程主机连接MySQL方法：
+GRANT ALL PRIVILEGES ON *.* TO 'yangjun03'@'%' IDENTIFIED BY 'Admin2123' WITH GRANT OPTION; 
+FLUSH   PRIVILEGES; 
+
+
+
+GRANT ALL PRIVILEGES ON *.* TO 'yangjun03'@'%'IDENTIFIED BY 'Admin2123' WITH GRANT OPTION; 
+FLUSH   PRIVILEGES;

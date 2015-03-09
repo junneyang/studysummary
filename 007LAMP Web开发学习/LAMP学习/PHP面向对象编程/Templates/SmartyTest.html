@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<title>{$Title}</title>
+		{include file="Head.html" TmpName="Smarty"}
+	</head>
+
+	<body>
+		<p><b>简单变量操作</b></p>
+		<p>{$Content}</p>
+		
+		<p><b>二维数组操作</b></p>
+		{section name=Key loop=$StrArr}
+		<ul>
+		<li>{$StrArr[Key].Cnt}</li>
+		</ul>
+		{sectionelse}
+		{/section}
+		
+		<p><b>一维数组操作(section方式)</b></p>
+		{section name=Key loop=$StrList}
+		<a href="#">{$StrList[Key]}</a> | 
+		{sectionelse}
+		{/section}
+		
+		<p><b>一维数组操作(foreach方式)</b></p>
+		{foreach key=K item=V from=$StrList}
+		<a href="#">{$V}</a> | 
+		{/foreach}
+		
+		<p><b>数据库数据查询操作</b></p>
+		{section name=Key loop=$DataArray}
+		<ul>
+		<li>标题:{$DataArray[Key].Title} | 内容:{$DataArray[Key].Content} | 时间:{$DataArray[Key].Time} | 点击量:{$DataArray[Key].HitNum}</li>
+		</ul>
+		{sectionelse}
+		{/section}
+		
+		<p><b>分支判断操作</b></p>
+		{if true}
+		<p>分支判断</p>
+		{/if}
+		
+		<p><b>嵌入其他脚本如JavaScript</b></p>
+		{literal}
+		<script language="javascript">
+		document.write("HelloWorld<br/>");
+		</script>
+		{/literal}
+	</body>
+</html>

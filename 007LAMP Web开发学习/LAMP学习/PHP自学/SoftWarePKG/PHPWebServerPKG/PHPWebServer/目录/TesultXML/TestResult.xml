@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SuiteReport SuiteId="0000000" SuiteName="FusionManager-TestResult">
+  <CaseRecord caseid="OSCA_Dsware_F_VirCluster_Create_002" casename="" conclusion="PASS" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="OSCA_Dsware_F_VirCluster_Create_001" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="OSCA_Dsware_F_Cluster_Config_001" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="OSCA_Dsware_F_Cluster_Delete_001" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="OSCA_Dsware_F_Cluster_Delete_002" casename="" conclusion="PASS" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="OSCA_Dsware_F_Cluster_Increase_037" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="OSCA_Dsware_F_Cluster_Increase_038" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="OSCA_Dsware_F_Cluster_Increase_049" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="OSCA_Dsware_F_Cluster_Reduce_026" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="OSCA_Dsware_F_Cluster_Reduce_027" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="OSCA_Dsware_F_Cluster_Reduce_036" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="OSCA_Dsware_F_Cluster_Search_001" casename="" conclusion="PASS" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="OSCA_Dsware_F_Cluster_Search_002" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="OSCA_Dsware_F_LuoCluster_Create_001" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+</SuiteReport>

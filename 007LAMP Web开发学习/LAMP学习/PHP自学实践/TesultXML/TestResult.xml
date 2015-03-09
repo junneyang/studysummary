@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SuiteReport SuiteId="0000000" SuiteName="FusionManager-TestResult">
+  <CaseRecord caseid="TC_Basic_R3C10_FC_Cluster_Summary_001" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="TC_Basic_R3C10_FC_GuestNuma_001" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="TC_Basic_Migrate_001_001" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="TC_Basic_Migrate_001_002" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="TC_Basic_VMWARE_VM_LifeCyle_add2org_01" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="F_ALL_Basic_Vmware_CreateVM_20131230_0006" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="TC_Basic_VMWARE_VM_LifeCyle_batch_delete_01" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="F_ALL_Basic_Vmware_SnapShot_20131211_0003" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="F_ALL_Basic_Vmware_SnapShot_20131211_0004" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="F_ALL_Basic_Vmware_SnapShot_20131211_0005" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="F_ALL_Basic_Vmware_SnapShot_20131211_0006" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="TC_Basic_R3C10_FS_QryDriver_002" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="TC_Basic_R3C0_VF_EditVM_C_002" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="TC_Basic_R3C0_VF_EditVM_C_004" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="TC_Basic_R3C0_VF_EditVM_C_005" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="F_ALL_Solution_CreateVM_20131220_0001" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="F_ALL_Solution_CreateVM_20131224_0002" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="F_ALL_Solution_CreateVM_20131224_0003" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="F_ALL_Solution_CreateVM_20131224_0004" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="F_ALL_Solution_CreateVM_20131224_0005" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="F_ALL_Solution_CreateVMCheckoutVcpu_20131226_0002" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="F_ALL_Solution_CreateVMCheckoutVcpu_20131226_0003" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+</SuiteReport>

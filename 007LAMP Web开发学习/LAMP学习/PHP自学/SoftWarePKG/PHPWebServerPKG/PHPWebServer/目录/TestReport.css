@@ -1,0 +1,370 @@
+/*CSSÖÐÒýÓÃÍâ²¿ÎÄ¼þÊ¹ÓÃÓëCSSÎÄ¼þµÄÏà¶ÔÂ·¾¶£¬×¢ÒâÓëhtmlÎÄµµµÄÇø±ð
+*/
+#ID_TOP{
+	background-color: #e5e5e5;
+	margin-top:5px;
+	margin-right:15%;
+	margin-left:15%;
+	
+	border-style:solid;
+	border-width:medium;
+	border-color:#e5e5e5;
+	
+	height:160px;
+}
+
+#ID_HelpInfo_DIV{
+	background-color: #e5e5e5;
+	margin-top:5px;
+	margin-right:15%;
+	margin-left:15%;
+	
+	border-style:solid;
+	border-width:medium;
+	border-color:#e5e5e5;
+}
+
+#ID_Title{
+	font-size:30px;
+	font-family:arial;
+	text-align:center;
+	color:black;
+	
+	position:relative;
+	top:0px;
+}
+
+#ID_DetailInfo{
+	font-family: Î¢ÈíÑÅºÚ,arial, verdana, sans-serif;
+	font-style:italic;
+	font-size: 18px;
+	text-align:right;
+	color:#ff0000;
+	
+	position:relative;
+	top:0px;
+	right:10px;
+}
+
+#ID_Tips_DownLoad{
+	font-family: Î¢ÈíÑÅºÚ,arial, verdana, sans-serif;
+	font-style:italic;
+	text-align:right;
+	position:relative;
+	right:10px;
+	
+	font-size: 12px;
+}
+
+#ID_TaskInfo_DIV{
+	background-color: #e5e5e5;
+	margin-right:15%;
+	margin-left:15%;
+	
+	font-family: Î¢ÈíÑÅºÚ;
+	/*font-weight: bold;*/
+	font-size: 16px;
+	color:lightgblue;
+	
+}
+
+#ID_TaskInfo_DIV p{
+	color:#ff0000;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+#ID_SearchInfo_DIV{
+	background-color: #e5e5e5;
+	margin-right:15%;
+	margin-left:15%;
+	
+	font-family: Î¢ÈíÑÅºÚ;
+	/*font-weight: bold;*/
+	font-size: 18px;
+	color:lightgblue;
+}
+
+#ID_SearchInfo_DIV p{
+	background-color: #B0E0E6;
+}
+
+#ID_ExeInfo_Detail_DIV,#ID_TaskInfo_Title_DIV{
+	background-color: #e5e5e5;
+	
+	font-family: Î¢ÈíÑÅºÚ;
+	font-weight: bold;
+	font-size: 15px;
+	color:red;
+}
+
+#ID_Title_Tbl_DIV{
+	background-color: #e5e5e5;
+	
+	font-family: Î¢ÈíÑÅºÚ;
+	font-weight: bold;
+	font-size: 15px;
+	color:red;
+	
+	margin-right:15%;
+	margin-left:15%;
+}
+
+#ID_ExeInfo_Title_DIV{
+	background-color: #e5e5e5;
+	
+	font-family: Î¢ÈíÑÅºÚ;
+	font-weight: bold;
+	font-size: 15px;
+	color:red;
+}
+
+
+
+#ID_GMTest_DIV{
+	float:left;
+	position:absolute;
+	left:220px;
+	top:20px;
+}
+
+#ID_GMTest_Text_001{
+	font-family: arial;
+	font-style:italic;
+	font-weight: bold;
+	font-size: 25px;
+	color:lightgreen;
+}
+
+#ID_GMTest_Text_002{
+	font-family: Î¢ÈíÑÅºÚ;
+	font-style:italic;
+	font-weight: bold;
+	font-size: 20px;
+	color:lightblue;
+}
+
+#ID_Tbl_Author_Summary{
+	background-color: #e5e5e5;
+	margin-right:15%;
+	margin-left:15%;
+	
+	border-style:solid;
+	border-width:medium;
+	border-color:#e5e5e5;
+	height:18px;
+	
+	font-family: Î¢ÈíÑÅºÚ;
+	font-weight: bold;
+	font-size: 15px;
+	color:lightgblue;
+	
+	position:relative;
+	right:0px;
+}
+
+td{
+	text-align:center;
+	color:green;
+}
+
+.Class_Deatil{
+	background-color: #e5e5e5;
+	margin-right:15%;
+	margin-left:15%;
+	
+	border-style:solid;
+	border-width:medium;
+	border-color:#e5e5e5;
+	/*display:none;*/
+	
+	position:relative;
+	top: 10px;
+}
+
+.Class_Log_Info{
+	display:none;
+}
+
+table{
+	border-collapse:collapse; 
+	border:1px solid white; 
+	background:#e5e5e5;
+	height:20px;
+}
+th,td{
+	border-collapse:collapse; 
+	border:1px solid white; 
+	background:#e5e5e5;
+	height:30px;
+}
+
+#ID_CopyInfo_DIV {
+	position:relative;
+	top: 300px;
+	
+	height:70px;
+	
+	font-size: 15px;
+	font-style:italic;
+}
+
+.CLASS_CP_Right{
+	font-size: 15px;
+	font-style:italic;
+	font-weight:normal;
+}
+
+/*
+p {
+	font-size:25px;
+	font-family:ºÚÌå;
+}
+
+li {
+	font-family: Î¢ÈíÑÅºÚ,arial, verdana, sans-serif;
+	font-style:italic;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 20px;
+	text-indent:30px;
+	text-align:left;
+	text-decoration:underline;
+	letter-spacing:2px;
+	color:#ff0000;
+}
+
+a:link {
+	color:blue;
+	
+}
+a:visited {
+	color:red;
+}
+a:hover {
+	color:blue;
+	letter-spacing: 3px;
+	font-weight:bold;
+}
+a:active {
+	background-color: #FFFF00;
+}
+
+li.class_A {
+	color:blue;
+}
+
+#ID_A {
+	color:black;
+}
+
+span.benefit {
+	color:red;
+}
+
+#democrats {
+	background:blue;
+}
+
+#republicans  {
+	background:green;
+	margin-top:50px;
+	margin-right:50px;
+	margin-bottom:50px;
+	margin-left:50px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-left:100px;
+	
+	border-style:solid;
+	border-width:medium;
+	border-color:black;
+	
+	width: 500px;
+	height:200px;
+	
+	float:left;
+}
+
+#ID_clear_Test {
+	clear:right;
+}
+
+#ID_h2_margin_Test {
+	margin-top:20px;
+	margin-right:100px;
+	margin-bottom:20px;
+	margin-left:70px;
+	background-color:green;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-left:100px;
+}
+
+body {
+	margin-top:50px;
+	margin-right:50px;
+	margin-bottom:50px;
+	margin-left:50px;
+}
+
+#ID_p_margin_Test {
+	background:blue;
+}
+
+#column1 {
+	float:left;
+	width: 33%;
+	background:green;
+}
+
+#column2 {
+	float:left;
+	width: 33%;
+	background:red;
+}
+
+#column3 {
+	float:left;
+	width: 33%;
+	background:green;
+}
+
+#ID_position_Test {
+	background-color:red;
+	margin-top:50px;
+	margin-right:50px;
+	margin-bottom:50px;
+	margin-left:50px;
+
+	position:relative;
+	top: 200px;
+	left: 200px;
+}
+
+#ID_10 {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	z-index: 1;
+	background:green;
+}
+
+#ID_J {
+	position: absolute;
+	left: 120px;
+	top: 120px;
+	z-index: 2;
+	background:red;
+}
+
+#ID_Q {
+	position: absolute;
+	left: 140px;
+	top: 140px;
+	z-index: 3;
+	background:green;
+}*/

@@ -1,0 +1,78 @@
+﻿<HTML>
+	<Head>
+	<body>
+	<Script type="text/JavaScript" language="JavaScript">
+	<!--
+	//document.write函数
+	document.write("HelloWorld,JavaScript测试脚本");
+	document.write("<h1>This Is A Header1</h1>");
+	document.write("<h2>This Is A Header2</h1>");
+	//单行注释
+	document.write("<p>This Is A Paragraph</p>");
+	document.write("<p>This Is A Paragraph</p>");
+	//变量使用
+	var a,b,c
+	a=10;
+	b=20;
+	c=a+b;
+	document.write(c);
+	//操作符使用
+	StrA="您好";
+	StrB="杨军";
+	StrC="<p></p>"+StrA+","+StrB+"!!!!";
+	document.write(StrC);
+	document.write("<p></p>");
+	document.write(1!=1);
+	document.write("<p></p>");
+	document.write(1==1 && 2>1);
+	//流程控制——if else
+	var Str="Hello";
+	if(Str=="A")
+	{
+		document.write("<p></p>");
+		document.write("Str==A");
+	}
+	else
+	{
+		document.write("<p></p>");
+		document.write("Str!=A");
+	}
+	//流程控制——for
+	for(i=0;i<10;i++)
+	{
+		document.write("<br/>"+"OutPut:"+i+"<br/>");
+	}
+	//流程控制——while
+	var Temp=0;
+	while(Temp<10)
+	{
+		document.write("<br/>"+"OutPut:"+Temp+"<br/>");
+		Temp++
+	}
+	//流程控制——for in
+	var Data= new Array("ABC",123,4565,"HDIH");
+	for(i in Data)
+	{
+		document.write("<br/>"+"OutPut:"+Data[i]+"<br/>");
+	}
+	//JavaScript弹出框
+	alert("JavaScript告警框");
+	//JavaScript确认框
+	var Ret=confirm("您是傻×");
+	if(Ret==true)
+	{
+		document.write("<br/>"+"佩服佩服"+"<br/>");
+	}
+	else
+	{
+		document.write("<br/>"+"您是傻×"+"<br/>");
+	}
+	//JavaScript提问框
+	var Ret=prompt("您的输入:");
+	document.write("<br/>"+Ret+"<br/>");
+	document.close();
+	//-->
+	</Script>
+	</body>
+	</Head>
+</HTML>

@@ -1,0 +1,87 @@
+【PHP简介】
+1.PHP简介
+2.PHP开发环境搭建
+【语法基础】
+3.PHP基本语法、基本数据类型介绍
+4.运算符、表达式
+5.流程控制
+6.函数
+7.数组及其操作
+8.文件目录操作
+【基础应用】
+9.数据库操作基础(MySQL)
+10.PHP操作MySQl数据库基础
+11.Html+PHP+MySQL前后台交互基础(前台JavaScript验证;字符串与Html转化，Html格式化输出;加密算法、cookie设置等)
+12.PHP分页显示原理
+13.PHP文件上传原理
+14.PHP模板引擎(文件操作模拟)
+15.PHP正则表达式
+【PHP面向对象编程】
+16.类与对(构造析构、属性方法、访问修饰)
+17.继承派生(重载)
+18.常用修饰符、特殊方法(常量、静态变量、抽象方法与抽象类)
+19.接口与多态
+20.面向对象简单应用
+【PHP高级应用】
+21.PHP传统模板引擎Smarty(基础入门、变量替换、模板函数、模板嵌套)
+22.Smarty模板缓存技术(全局缓存、局部缓存技术)
+23.FckEdit在线编辑器插件应用	
+24.PHP的session与cookie机制(session有什么意义???)
+25.PHP图片验证码机制(GD库的使用 && 线条、噪点、跳动等干扰)
+26.PHP与Ajax、javascript交互原理
+
+
+
+【附录A：MySQL数据库字段】
+数据类型 			描述																		应用范围
+int，smallint 		整型，常用int型，取值最大11位												点击量，编号，真假
+char ，varchar		字符串型，char最大取值255字节，varchar更长并伸缩							标题，姓名，关键字
+Date，datime 		日期型，固定格式：0000-00-00 00:00:00 										时间
+float ，double 		小数类型，一般设置类型为（总长度，小数位长度）							价格，科学数值等
+Text，longtext		备注型：没有长度限制，但取决于服务器和mysql性能						新闻内容，长内容
+
+【附录B：MySQL数据表操作】
+插入数据
+Insert into 表 （字段1，字段2…）values (值1，值2)												建议使用这一种
+Insert into 表  values (值1，值2)																简化方式
+Insert into 表  set 字段1=值1，字段2=值2，……
+
+查询数据
+Select 字段，字段，…… from   表 
+Select   *  或  函数（字段） from  表
+Select 字段，字段，…… from   表 where   条件 
+Select 字段，字段，…… from   表  where  字段  like ‘%值%’  
+Select 字段，字段，…… from   表  where  字段  not like ‘%值%’  
+Select 字段，字段，…… from   表  where  字段  in  （值，值）
+Select 字段，字段，…… from   表  where  字段  not  in （值，值）
+Select 字段，字段，…… from   表  group by 字段 
+Select 字段，字段，…… from   表  order by 字段 [asc / desc ]
+Select 字段，字段，…… from   表    limit    起始位   ，条数
+
+当出现多个情况组合时，应遵循：WGOL 规范：
+Select *  from   user where age<30 group by job order by id desc limit 10
+
+更新数据
+Update 表 set 字段=值 ， 字段=值  [where] [group] [order] [limit] 
+
+删除数据
+delete from 表 [where] [group] [order] [limit]
+
+【附录C：PHP操作MySQl常见函数】
+mysql_connect(数据库地址，用户名，密码)
+mysql_select_db(数据库名)
+mysql_set_chartset(‘编码’) //PHP5.2.3以后的函数
+mysql_query(“set names 'gbk'”) 																	三码合一：数据库（DB）、视图（View）、代码（code）
+
+mysql_query(SQL语句或命令)  
+
+mysql_fetch_array(资源数据)  //返回下标与键名数组  
+mysql_fetch_row(资源数据)  //返回下标数组  
+mysql_fetch_object(资源数据) //返回对象形式调用 
+mysql_num_rows(数据资源)  
+
+//一般可以不用关闭
+mysql_close(数据资源) 
+
+
+

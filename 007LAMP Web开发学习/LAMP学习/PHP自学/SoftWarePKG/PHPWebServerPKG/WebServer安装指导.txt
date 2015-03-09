@@ -1,0 +1,67 @@
+【系统要求】
+1.既可以在物理机也可以在虚拟机部署
+2.至少存在系统盘C、用户盘D
+3.用户盘D建议规格稍大
+4.操作系统支持XP、Win7等，建议使用Win7
+5.执行机与WebServer要求网络可以连通
+
+【安装部署方式】
+方式一：手工完全安装，该方式需要手工安装PHP、Apache、MySQL等软件并且手动配置
+方式二：VMWare虚拟机模板部署，该方式使用VMWare虚拟机模板直接部署，不需要任何人工干预，安装完毕直接使用
+
+方式一：手工安装PHP、Apache、MySQL等软件并且手动配置
+【详细安装步骤】
+1.拷贝PHPWebServer到D盘
+2.安装Apache
+	2.1.域名：huawei.com；主机名：HostName；邮箱：yangjun@huawei.com即可，端口默认
+	2.2.典型安装，安装路径为：D:\PHPWebServer\Apache2.2\
+	2.3.安装完毕，浏览器输入 http://localhost/，出现it works，继续下一步
+	2.4.替换Apache配置文件，httpd.conf文件覆盖D:\PHPWebServer\Apache2.2\conf\httpd.conf文件
+	2.5.重启Apache服务，浏览器输入 http://localhost:8888/，出现it works，继续下一步
+3.安装PHP
+	3.1.PHP的安装、配置已经按照目录规划默认完成，不用理会
+	3.2.验证方法：拷贝HelloWorld.php到D:\PHPWebServer\Apache2.2\htdocs目录下，浏览器输入 http://localhost:8888/HelloWorld.php，出现HelloWorld!!!，
+		以及php版本信息，继续下一步
+4.安装MySQL
+	4.1.MySQL安装，选择典型安装
+	4.2.新建目录：D:\PHPWebServer\MySQL5.5
+	4.3.MySQL配置：详细配置——服务器模式——多功能数据库——最大连接数默认——端口默认——编码格式：gb2312——加入到环境变量——密码为：Admin123、允许远程访问
+	4.4.Finish，mysql -u root -p可访问，表示MySQL安装OK
+	4.5.创建数据库：create database database_test;查看数据库创建成功：show databases;
+	4.6.创建数据表：testfeature，命令如下：
+CREATE TABLE `testfeature` (
+  `ID` int(10) NOT NULL AUTO_INCREMENT,
+  `Feature` varchar(255) DEFAULT NULL,
+  `Author` varchar(255) DEFAULT NULL,
+  `TotalNum` int(11) DEFAULT NULL,
+  `PASSNum` int(11) DEFAULT NULL,
+  `FailNum` int(11) DEFAULT NULL,
+  `TaskName` varchar(255) DEFAULT NULL,
+  `ExePCName` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=941 DEFAULT CHARSET=gb2312;
+	4.7.创建数据表：testscript，命令如下：
+CREATE TABLE `testscript` (
+  `ID` int(10) NOT NULL AUTO_INCREMENT,
+  `TaskName` varchar(255) DEFAULT NULL,
+  `ExePCName` varchar(255) DEFAULT NULL,
+  `Feature` varchar(255) DEFAULT NULL,
+  `Author` varchar(255) DEFAULT NULL,
+  `ScriptID` varchar(255) DEFAULT NULL,
+  `ScriptContent` longtext,
+  `ScriptLog` longtext,
+  `ScriptRunStatus` varchar(255) DEFAULT NULL,
+  `ResultToTMSS` varchar(255) DEFAULT NULL,
+  `StartTime` datetime DEFAULT NULL,
+  `EndTime` datetime DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=13586 DEFAULT CHARSET=gb2312;
+5.拷贝OpenTestRunner文件夹到D:\PHPWebServer\Apache2.2\htdocs。
+6.在执行机（最好在其他机器上验证，与本机不一致）上配置并且启动OpenTestRunner，使用本机作为WebServer。
+7.浏览器输入执行机控制台提示的url，检查服务是否可用。
+8.完毕。
+
+方式二：使用VMWare虚拟机模板直接部署，不需要任何人工干预，安装完毕直接使用
+VMWare虚拟机模板请联系华为工程师获取
+
+

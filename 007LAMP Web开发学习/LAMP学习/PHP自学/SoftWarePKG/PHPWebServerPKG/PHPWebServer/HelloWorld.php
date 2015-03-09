@@ -1,0 +1,4 @@
+<?php
+print("HelloWorld!!!");
+phpinfo();
+?>

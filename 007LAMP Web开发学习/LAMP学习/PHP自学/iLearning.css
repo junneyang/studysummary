@@ -1,0 +1,50 @@
+/*CSS中引用外部文件使用与CSS文件的相对路径，注意与html文档的区别
+*/
+.Class_TEST{
+	background-color: #e5e5e5;
+	color:black;
+	
+	font-family: 宋体,微软雅黑,arial, verdana, sans-serif;
+	font-style:normal;
+	font-size: 15px;
+	text-align:left;
+	
+	margin-top:5px;
+	margin-right:15%;
+	margin-left:15%;
+	margin-bottom:5px;
+	
+	border-style:solid;
+	border-width:thin;
+	#border-color:#e5e5e5;
+	border-color:lightblue;
+	
+	padding-left:10px;
+	padding-top:0px;
+	padding-right:10px;
+	padding-bottom:0px;
+}
+
+#ID_Tbl_Summary{
+	background-color: #e5e5e5;
+	margin-right:15%;
+	margin-left:15%;
+	
+	border-style:solid;
+	border-width:medium;
+	border-color:#e5e5e5;
+	height:18px;
+	
+	font-family: 微软雅黑;
+	font-weight: bold;
+	font-size: 15px;
+	color:lightgblue;
+	
+	position:relative;
+	right:0px;
+}
+
+td{
+	text-align:center;
+	color:green;
+}

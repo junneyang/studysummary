@@ -1,0 +1,19 @@
+#!/usr/bin/python
+# -*- coding: cp936 -*-
+
+print("HelloWorld"+"!!!")
+
+Str=u"¹þ¹þ£¡£¡£¡×Ö·û´®"
+print(Str)
+
+Str=u"¹þ¹þ£¡£¡£¡×Ö·û´®"
+print(Str)
+
+print(u"¹þ¹þ£¡£¡£¡×Ö·û´®")
+
+
+Str=u'¹þ¹þ£¡£¡£¡×Ö·û´®'
+print(Str)
+
+StrCat=u"ºÙºÙ"+Str
+print(StrCat)

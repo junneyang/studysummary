@@ -1,0 +1,2 @@
+[DEBUG] [Mon,2014-03-17 18:42:21] [Python_MultiProcess.py-line:20] [<module>-MainThread] MainProcess Start
+[DEBUG] [Mon,2014-03-17 18:42:21] [Python_MultiProcess.py-line:22] [<module>-MainThread] *****MainProcess*****

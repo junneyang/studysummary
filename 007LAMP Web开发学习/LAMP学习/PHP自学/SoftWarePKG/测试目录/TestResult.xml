@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SuiteReport SuiteId="0000000" SuiteName="Result">
+  <CaseRecord caseid="002" casename="" conclusion="PASS" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="TestCase0001" casename="" conclusion="PASS" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="TestCase0002" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="004" casename="" conclusion="PASS" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="TestCase 0003 带空格" casename="" conclusion="PASS" description="" elapsedtime="" taskid="" timestamp=""/>
+  <CaseRecord caseid="TestCase0004" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="" timestamp=""/>
+</SuiteReport>

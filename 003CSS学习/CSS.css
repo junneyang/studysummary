@@ -1,0 +1,146 @@
+p.Class_CourseOne{
+	font-family:微软雅黑;
+	font-size:18px;
+	font-style:italic;
+	font-weight:bold;
+	color:blue;
+	
+	text-align:left;
+	text-decoration:underline;
+	line-height:1mm;
+	letter-spacing:normal;
+}
+
+p.Class_CourseTwo{
+	font-family:微软雅黑;
+	font-size:18px;
+	font-style:italic;
+	font-weight:bold;
+	color:red;
+	
+	text-align:left;
+	text-decoration:underline;
+	letter-spacing:normal;
+	
+	background-color:#99FF00;
+	border-color:black;
+	border-style:solid;
+}
+
+p.Class_CourseThree{
+	font-family:微软雅黑;
+	font-size:18px;
+	font-style:italic;
+	font-weight:bold;
+	color:blue;
+	
+	text-align:left;
+	text-decoration:underline;
+	letter-spacing:normal;
+	
+	border-style:solid;
+	border-color:green;
+	border-width:thin;
+}
+
+p.Class_CourseFour{
+	font-family:微软雅黑;
+	font-size:18px;
+	font-style:italic;
+	font-weight:bold;
+	color:black;
+	
+	text-align:center;
+	text-decoration:none;
+	letter-spacing:normal;
+	
+	border-style:solid;
+	border-color:blue;
+	border-width:thin;
+	
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+
+p.Class_CourseFive{
+	font-family:微软雅黑;
+	font-size:18px;
+	font-style:italic;
+	font-weight:bold;
+	color:black;
+	
+	text-align:left;
+	text-decoration:none;
+	letter-spacing:normal;
+	
+	border-style:solid;
+	border-color:blue;
+	border-width:thin;
+	
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:100px;
+	margin-bottom:100px;
+	
+	padding-left:50px;
+	
+	background-color:green;
+	
+	height:50px;
+}
+
+ul.Class_Food{
+	font-family:微软雅黑;
+	font-size:18px;
+	font-style:italic;
+	font-weight:bold;
+	color:black;
+	
+	text-align:left;
+	text-decoration:none;
+	letter-spacing:normal;
+	
+	border-style:solid;
+	border-color:blue;
+	border-width:thin;
+	
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:100px;
+	margin-bottom:100px;
+	
+	list-style-type:none;
+	list-style-position:outside;
+	list-style-image:url(List.bmp);
+}
+
+p.Class_CourseSix{
+	font-family:微软雅黑;
+	font-size:18px;
+	font-style:italic;
+	font-weight:bold;
+	color:blue;
+	
+	text-align:left;
+	text-decoration:underline;
+	letter-spacing:normal;
+	
+	border-style:solid;
+	border-color:green;
+	border-width:thin;
+}
+
+a:link {color:blue}     /* 未被访问的链接 红色 */
+a:visited {color:green}  /* 已被访问过的链接 绿色 */
+a:hover {color:yellow}   /* 鼠标悬浮在上的链接 橙色 */
+a:active {color:blue}   /* 鼠标点中激活链接 蓝色 */
+
+body{
+	background:lightgray;
+	background-image:url(BackGrd.bmp);
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-position:50% 0px;
+}

@@ -1,0 +1,94 @@
+1.解压，改名
+2.构造、修改php.ini文件
+3.配置Apache支持PHP（httpd.conf），即载入PHP的组件
+4.文件根目录配置
+5.目录访问权限控制
+6.添加php文件类型，注册此类型，apache通知php继续解析
+7.测试一下，OK
+
+8.配置php.ini支持mysql，如下：
+
+;extension=php_exif.dll      ; Must be after mbstring as it depends on it
+extension=php_mysql.dll
+;extension=php_mysqli.dll
+
+9.extension 路径配置：
+; Directory in which the loadable extensions (modules) reside.
+; http://php.net/extension-dir
+; extension_dir = "./"
+extension_dir = "D:/PHPWebServer/SoftWare/php5.4/ext"
+; On windows:
+; extension_dir = "ext"
+
+
+
+
+【httpd配置文件】
+Apache的安装路径：
+ServerRoot "D:/PHPWebServer/Apache2.2"
+
+监听端口：
+#Listen 12.34.56.78:80
+Listen 80
+比如可以改成 Listen 8888
+
+组件载入：
+#LoadModule vhost_alias_module modules/mod_vhost_alias.so
+XXXXXXXX
+<IfModule !mpm_netware_module>
+比如加入php组件：LoadModule php5_module "D:/PHPWebServer/SoftWare\php5.4/php5apache2_2.dll"
+
+邮件地址：
+ServerAdmin admin@china.huawei.com
+可以忽略
+服务器名称：
+#ServerName sjk2.china.huawei.com:80
+可以忽略
+
+文件根目录：
+DocumentRoot "D:/PHPWebServer/Apache2.2/htdocs"
+
+文件访问权限控制（该目录大于等文件根目录，否则文件根目录访问不了）：
+<Directory "D:/PHPWebServer/Apache2.2/htdocs">
+比如可以修改为：<Directory "D:/PHPWebServer/Apache2.2">
+然后下面可以新建多个站点：htdocs；htdocs001；htdocs002 。。。
+
+index文件配置：
+<IfModule dir_module>
+    DirectoryIndex index.html
+</IfModule>
+可以修改，也可不用理会
+
+apache错误日志、访问日志等目录&&文件：
+ErrorLog "logs/error.log"
+CustomLog "logs/access.log" common
+不用理会
+
+添加apache支持php文件类型（发现.php即载入php模块）：
+#
+    AddType application/x-compress .Z
+    AddType application/x-gzip .gz .tgz
+
+#
+添加：AddType application/x-httpd-php  .php
+
+异常文件配置：
+# Some examples:
+#ErrorDocument 500 "The server made a boo boo."
+#ErrorDocument 404 /missing.html
+#ErrorDocument 404 "/cgi-bin/missing_handler.pl"
+#ErrorDocument 402 http://sjk2.china.huawei.com/subscription_info.html
+#
+可以不用理会
+
+虚拟主机配置（支持多站点配置）：
+# Virtual hosts
+#Include conf/extra/httpd-vhosts.conf
+可以暂不理会，有其他解决方案。比如安装两个Apache。
+
+php配置文件路径：
+PHPIniDir "C:/www/PHP54"
+例如可以配置：
+PHPIniDir "D:\PHPWebServer\SoftWare\php5.4"
+
+

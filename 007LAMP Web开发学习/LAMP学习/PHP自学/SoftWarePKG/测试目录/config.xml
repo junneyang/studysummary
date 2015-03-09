@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?>
+<FillConfig>
+    <LoginConfig address="10.82.20.54" password="yangjun" port="8082" userName="yangjun" />
+    <VersionRootConfig version="/621ki3hicgc/re8l059g90m/iq6lc7k06oq/" />
+    <TestReportConfig RemarkName="description" TestCaseId="caseid" TestCaseLevel="1" TestCaseName="casename" TestResultName="conclusion" />
+    <TestReportList>
+        <TestReport filePath="TestResult.xml" />
+    </TestReportList>
+</FillConfig>

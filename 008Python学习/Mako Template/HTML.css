@@ -1,0 +1,288 @@
+/*CSS中引用外部文件使用与CSS文件的相对路径，注意与html文档的区别
+*/
+#ID_TOP{
+	background-color: #e5e5e5;
+	margin-top:5px;
+	margin-right:15%;
+	margin-left:15%;
+	
+	border-style:solid;
+	border-width:medium;
+	border-color:#e5e5e5;
+	
+	height:150px;
+}
+
+#ID_Title{
+	font-size:25px;
+	font-family:黑体;
+	text-align:center;
+	color:black;
+	
+	position:relative;
+	top:15px;
+}
+
+#ID_DetailInfo{
+	font-family: 微软雅黑,arial, verdana, sans-serif;
+	font-style:italic;
+	font-size: 18px;
+	text-align:right;
+	color:#ff0000;
+	
+	position:relative;
+	top:35px;
+}
+
+#ID_GMTest_DIV{
+	float:left;
+	position:absolute;
+	left:220px;
+	top:20px;
+}
+
+#ID_GMTest_Text_001{
+	font-family: arial;
+	font-style:italic;
+	font-weight: bold;
+	font-size: 25px;
+	color:lightgreen;
+}
+
+#ID_GMTest_Text_002{
+	font-family: 微软雅黑;
+	font-style:italic;
+	font-weight: bold;
+	font-size: 20px;
+	color:lightblue;
+}
+
+#ID_Tbl_Author_Summary{
+	background-color: #e5e5e5;
+	margin-right:15%;
+	margin-left:15%;
+	
+	border-style:solid;
+	border-width:medium;
+	border-color:#e5e5e5;
+	height:18px;
+	
+	font-family: 微软雅黑;
+	font-weight: bold;
+	font-size: 15px;
+	color:lightgblue;
+}
+
+td{
+	text-align:center;
+	color:green;
+}
+
+.Class_Deatil{
+	background-color: #e5e5e5;
+	margin-right:15%;
+	margin-left:15%;
+	
+	border-style:solid;
+	border-width:medium;
+	border-color:#e5e5e5;
+	display:none;
+	
+	position:relative;
+	top: 10px;
+}
+
+#ID_TimeAlarm{
+	background-color: #e5e5e5;
+	
+	border-style:solid;
+	border-width:medium;
+	border-color:#e5e5e5;
+	
+	height:150px;
+	width:18px;
+	
+	position:absolute;
+	top: 200px;
+	left:10px;
+}
+
+#ID_Right_Toogle{
+	position:relative;
+	top: 45%;
+	color:blue;
+}
+
+#ID_OtherAlarm{
+	background-color: #e5e5e5;
+	
+	border-style:solid;
+	border-width:medium;
+	border-color:#e5e5e5;
+	
+	height:150px;
+	width:18px;
+	
+	position:absolute;
+	top: 200px;
+	right:10px;
+}
+
+#ID_Left_Toogle{
+	position:relative;
+	top: 45%;
+	color:blue;
+}
+
+/*
+p {
+	font-size:25px;
+	font-family:黑体;
+}
+
+li {
+	font-family: 微软雅黑,arial, verdana, sans-serif;
+	font-style:italic;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 20px;
+	text-indent:30px;
+	text-align:left;
+	text-decoration:underline;
+	letter-spacing:2px;
+	color:#ff0000;
+}
+
+a:link {
+	color:blue;
+	
+}
+a:visited {
+	color:red;
+}
+a:hover {
+	color:blue;
+	letter-spacing: 3px;
+	font-weight:bold;
+}
+a:active {
+	background-color: #FFFF00;
+}
+
+li.class_A {
+	color:blue;
+}
+
+#ID_A {
+	color:black;
+}
+
+span.benefit {
+	color:red;
+}
+
+#democrats {
+	background:blue;
+}
+
+#republicans  {
+	background:green;
+	margin-top:50px;
+	margin-right:50px;
+	margin-bottom:50px;
+	margin-left:50px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-left:100px;
+	
+	border-style:solid;
+	border-width:medium;
+	border-color:black;
+	
+	width: 500px;
+	height:200px;
+	
+	float:left;
+}
+
+#ID_clear_Test {
+	clear:right;
+}
+
+#ID_h2_margin_Test {
+	margin-top:20px;
+	margin-right:100px;
+	margin-bottom:20px;
+	margin-left:70px;
+	background-color:green;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-left:100px;
+}
+
+body {
+	margin-top:50px;
+	margin-right:50px;
+	margin-bottom:50px;
+	margin-left:50px;
+}
+
+#ID_p_margin_Test {
+	background:blue;
+}
+
+#column1 {
+	float:left;
+	width: 33%;
+	background:green;
+}
+
+#column2 {
+	float:left;
+	width: 33%;
+	background:red;
+}
+
+#column3 {
+	float:left;
+	width: 33%;
+	background:green;
+}
+
+#ID_position_Test {
+	background-color:red;
+	margin-top:50px;
+	margin-right:50px;
+	margin-bottom:50px;
+	margin-left:50px;
+
+	position:relative;
+	top: 200px;
+	left: 200px;
+}
+
+#ID_10 {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	z-index: 1;
+	background:green;
+}
+
+#ID_J {
+	position: absolute;
+	left: 120px;
+	top: 120px;
+	z-index: 2;
+	background:red;
+}
+
+#ID_Q {
+	position: absolute;
+	left: 140px;
+	top: 140px;
+	z-index: 3;
+	background:green;
+}*/

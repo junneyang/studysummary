@@ -1,0 +1,10 @@
+1、python
+2、Java
+3、Html
+4、CSS
+5、JavaScript/JQuery
+6、PHP
+7、LAMP
+8、Spring崇尺
+9、SQL
+

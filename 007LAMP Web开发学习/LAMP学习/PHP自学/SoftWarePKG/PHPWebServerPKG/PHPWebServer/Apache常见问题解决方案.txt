@@ -1,0 +1,9 @@
+【80端口被系统进程占用，Apache启动失败】
+现象：安装完毕，输入http://localhost/，没有出现it works，说明启动失败。
+1.安装完毕Apache右下角图标没有处于运行状态。原因：80端口被占用（可以看到80端口被PID4占用，即NT kernel & System）。
+2.解决方案：
+A.net stop http
+B.Sc config http start= disabled
+C.net start Apache2.2启动Apache，OK搞定！此时Apache运行状态正常。
+
+参考：http://www.2cto.com/os/201111/111269.html

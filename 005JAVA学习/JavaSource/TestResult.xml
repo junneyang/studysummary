@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SuiteReport SuiteId="0000000" SuiteName="Test">
+    <CaseRecord caseid="TestCase0004" casename="" conclusion="FAIL" description="" elapsedtime="" taskid="0000000" timestamp="" />
+</SuiteReport>

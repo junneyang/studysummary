@@ -1,0 +1,17 @@
+(iInherit
+Teacher
+p1
+(dp2
+S'salary'
+p3
+S'8000'
+p4
+sS'age'
+p5
+S'25'
+p6
+sS'name'
+p7
+S'AH'
+p8
+sb.
